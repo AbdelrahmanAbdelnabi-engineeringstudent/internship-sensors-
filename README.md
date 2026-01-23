@@ -1,10 +1,11 @@
-# internship-sensors-
-arduino-sensor-lab
-# Arduino Sensor Laboratory (ATmega328P)
+# Arduino Sensor Lab (JOY-IT) — ATmega328P
 
-This repository contains sensor experiments performed using an ATmega328P-based Arduino board.
+This repository contains my sensor experiments using a JOY-IT Arduino board (ATmega328P).
 
 ## Sensors
-- KY-032 Obstacle Detector
+- KY-032 (Hindernis Detektor Module)
+- KY-028 (Temperature Sensor)
 
-Each sensor includes wiring, Arduino code, and documentation.
+## Files
+- `Sensor_Notes.md` → sensor reports (connection + observation + challenges)
+- `Log.md` → my work log

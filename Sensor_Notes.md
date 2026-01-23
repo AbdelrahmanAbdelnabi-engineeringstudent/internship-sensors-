@@ -46,3 +46,23 @@ This inverse relationship confirms the presence of an NTC thermistor and demonst
 ## Challenges I faced
 The main challenge was understanding why the numbers go down when it gets hotter, but after testing it more than once it became clear.
 
+---
+
+# Sensor 3: KY-001 Temperature Sensor (DS18B20)
+
+## Small description
+The KY-001 is a digital temperature sensor. It measures temperature and gives the Arduino the temperature as a real degree value (°C). It is very accurate because it sends digital data, not analog numbers.
+
+## How to connect it
+- GND → Arduino GND  
+- VCC → Arduino 5V  
+- SIG → Arduino D2  
+- 4.7kΩ resistor between SIG and 5V  
+
+Observation
+
+During the experiment, it was observed that the KY-001 temperature sensor is highly sensitive and responds quickly to temperature changes. The sensor also provided accurate temperature readings in degrees Celsius, which made it easy to monitor and verify the measured values using the Serial Monitor.
+
+Challenges
+
+No challenges were faced during the connection or testing of the KY-001 sensor. The wiring and code execution worked correctly, and the sensor readings were stable and reliable.

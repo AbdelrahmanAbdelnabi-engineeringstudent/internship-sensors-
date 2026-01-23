@@ -11,7 +11,13 @@
 - Adjusted the potentiometers and observed different behavior
 
 ## Day 3 (01.23.2026):
-- Tested KY-028 temperature sensor
+- Tested KY-028 (temperature sensor)
 - Observed lower temperature gives high arduino values and higher temperature gives low arduino values.
 - Wrote sensor notes and documentation
+- KY-001 (Temperature Sensor)
+- Connected KY-001 to Arduino (VCC, GND, SIG)
+- Installed required libraries (OneWire, DallasTemperature)
+- Uploaded the KY-001 code and tested temperature readings in °C
+- Observed that the sensor is very sensitive and accurate
+- No challenges faced during testing
 

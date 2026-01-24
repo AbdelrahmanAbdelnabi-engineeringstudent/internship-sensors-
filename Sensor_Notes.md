@@ -66,3 +66,28 @@ During the experiment, it was observed that the KY-001 temperature sensor is hig
 Challenges
 
 No challenges were faced during the connection or testing of the KY-001 sensor. The wiring and code execution worked correctly, and the sensor readings were stable and reliable.
+
+---
+
+# Sensor 4: KY-035 Hall Effect Sensor
+
+
+## Small description
+The KY-035 is an analog Hall effect sensor module. It detects magnetic fields and sends an analog value to the Arduino depending on the strength of the magnetic field near the sensor.
+
+
+## How to connect it
+- VCC → Arduino 5V
+- GND → Arduino GND
+- SIG → Arduino A0
+
+Observation
+
+During the experiment, it was observed that the output values of the KY-035 Hall effect sensor depend on the distance between the sensor and the magnetic field source. When a small magnet was moved farther away from the sensor, the measured analog values decreased. When the magnet was brought closer to the sensor, the values increased.
+
+Because the magnet used was relatively weak, the sensor readings remained stable within a small range, approximately between 932 and 938.
+
+Challenges
+
+No major challenges were faced during the experiment. The sensor output was easy to observe and remained steady due to the weak magnet strength.
+

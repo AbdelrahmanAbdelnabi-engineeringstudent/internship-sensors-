@@ -46,3 +46,10 @@
 - Observed relay clicking ON and OFF successfully
 - Noted that the relay only works on the pin written in the code (D7 in this experiment)
 - No challenges faced
+
+- Tested SEN-US01 (Ultrasonic Distance Sensor)
+- Connected SEN-US01 to Arduino (VCC → 5V, GND → GND, TRIG → D9, ECHO → D10)
+- Uploaded the code and tested distance measurement using Serial Monitor
+- Observed very high accuracy and good performance for the sensor size
+- Tested maximum distance around 190 cm and it still detected precisely
+- Noted that when no object is detected, the sensor shows 1190 cm due to timeout/no echo

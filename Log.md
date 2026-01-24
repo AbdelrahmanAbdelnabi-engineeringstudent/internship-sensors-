@@ -38,3 +38,11 @@
 - Observed that the sensor output changes depending on the position of the internal ball inside the cylinder
 - Noted that the sensor can show tilt even on a flat surface, and show no tilt even when tilted
 - Concluded that the sensor is not accurate for reliable tilt detection
+
+- Tested KY-019 (5V Relay Module)
+- Connected KY-019 relay module using pins (S, +, -)
+- Wiring used: S → D7, + → 5V, - → GND
+- Uploaded the relay code and tested switching
+- Observed relay clicking ON and OFF successfully
+- Noted that the relay only works on the pin written in the code (D7 in this experiment)
+- No challenges faced

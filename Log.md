@@ -14,6 +14,7 @@
 - Tested KY-028 (temperature sensor)
 - Observed lower temperature gives high arduino values and higher temperature gives low arduino values.
 - Wrote sensor notes and documentation
+  
 - Tested KY-001 (Temperature Sensor)
 - Connected KY-001 to Arduino (VCC, GND, SIG)
 - Installed required libraries (OneWire, DallasTemperature)
@@ -29,3 +30,11 @@
 - Observed that the values depend on the distance between the magnet and the sensor
 - Farther magnet → lower values, closer magnet → higher values
 - Readings were steady between 932–938 because the magnet was weak
+  
+- Tested KY-027 (Magic Light Cup Module)
+- Connected KY-027 to Arduino using the pins (G, +, S, L)
+- Wiring used: G → GND, + → 5V, S → D2, L not connected
+- Uploaded the code and tested the sensor output using Serial Monitor
+- Observed that the sensor output changes depending on the position of the internal ball inside the cylinder
+- Noted that the sensor can show tilt even on a flat surface, and show no tilt even when tilted
+- Concluded that the sensor is not accurate for reliable tilt detection

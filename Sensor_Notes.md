@@ -148,3 +148,29 @@ During testing, the relay was working correctly and it clicked ON and OFF repeat
 Challenges:
 
 No challenges were faced during the connection or testing of the KY-019 relay module.
+
+---
+
+
+# Sensor 7: SEN-US01 Ultrasonic Distance Sensor
+
+
+## Small description
+The SEN-US01 is an ultrasonic distance sensor. It measures distance by sending an ultrasonic pulse and measuring the time until the echo comes back. The Arduino calculates the distance using the measured time.
+
+
+## How to connect it
+- VCC → Arduino 5V
+- GND → Arduino GND
+- TRIG → Arduino D9
+- ECHO → Arduino D10
+
+Observation:
+
+During testing, it was observed that this small sensor is very accurate and efficient for its size. The sensor was able to detect distance precisely up to around 190 cm, which is a large range for such a small module.
+
+It was also observed that when the distance becomes too far or when the sensor cannot detect an object, the output value becomes 1190 cm. This value happens because the sensor does not receive an echo signal, so the Arduino reads a timeout value and converts it into a large distance number.
+
+Challenges:
+
+No major challenges were faced during testing. The sensor worked reliably and produced stable results.

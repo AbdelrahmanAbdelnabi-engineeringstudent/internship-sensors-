@@ -15,13 +15,13 @@ Connect it like this:
 - OUT → Arduino D2
 - EN → not connected (optional)
 
-## My observation
+## My observation:
 From my observation, I saw that in the code we can change the number of pin anywhere and it will still do the work.
 
 During testing, it was observed that adjusting the potentiometers can invert the sensor’s behavior. In one configuration, the output signal is HIGH when an obstacle is detected. In another configuration, the output remains HIGH by default and switches LOW when an object is detected.
 This occurs because the comparator threshold crosses the received signal level. Fine adjustment is required, as small changes significantly affect the output behavior.
 
-## Challenges I faced
+## Challenges I faced:
 and what i saw really challenging here is perfecting the angle of the potentiometers to get the desired function.
 
 ---
@@ -39,11 +39,11 @@ Connect it like this:
 - AO → Arduino A0
 - DO → not connected (not needed)
 
-## My observation
+## My observation:
 During the experiment, it was observed that when the sensor was exposed to cold conditions, the analog values read by the Arduino increased. When the temperature increased, the measured values decreased significantly.
 This inverse relationship confirms the presence of an NTC thermistor and demonstrates how temperature affects electrical resistance and voltage output.
 
-## Challenges I faced
+## Challenges I faced:
 The main challenge was understanding why the numbers go down when it gets hotter, but after testing it more than once it became clear.
 
 ---
@@ -59,11 +59,11 @@ The KY-001 is a digital temperature sensor. It measures temperature and gives th
 - SIG → Arduino D2  
 - 4.7kΩ resistor between SIG and 5V  
 
-Observation
+Observation:
 
 During the experiment, it was observed that the KY-001 temperature sensor is highly sensitive and responds quickly to temperature changes. The sensor also provided accurate temperature readings in degrees Celsius, which made it easy to monitor and verify the measured values using the Serial Monitor.
 
-Challenges
+Challenges:
 
 No challenges were faced during the connection or testing of the KY-001 sensor. The wiring and code execution worked correctly, and the sensor readings were stable and reliable.
 
@@ -81,13 +81,43 @@ The KY-035 is an analog Hall effect sensor module. It detects magnetic fields an
 - GND → Arduino GND
 - SIG → Arduino A0
 
-Observation
+Observation:
 
 During the experiment, it was observed that the output values of the KY-035 Hall effect sensor depend on the distance between the sensor and the magnetic field source. When a small magnet was moved farther away from the sensor, the measured analog values decreased. When the magnet was brought closer to the sensor, the values increased.
 
 Because the magnet used was relatively weak, the sensor readings remained stable within a small range, approximately between 932 and 938.
 
-Challenges
+Challenges:
 
 No major challenges were faced during the experiment. The sensor output was easy to observe and remained steady due to the weak magnet strength.
 
+---
+
+# Sensor 5: KY-027 Magic Light Cup Module
+
+
+## Small description
+The KY-027 Magic Light Cup module is a tilt-based sensor module. It gives a digital signal to the Arduino depending on the position of the tilt switch inside the sensor.
+
+
+## How to connect it
+The pins on the sensor are: **G , + , S , L**
+
+
+Connect it like this:
+- G → Arduino GND
+- + → Arduino 5V
+- S → Arduino D2
+- L → not connected
+
+Observation:
+
+During testing, it was observed that the KY-027 module is not reliable for accurate tilt detection. The sensor seems to operate using a simple mechanical principle where a small internal element (likely a small ball) moves inside the cylindrical part of the module and changes the electrical contact.
+
+Because of this, the output sometimes depends more on the position of the internal ball than the real tilt angle of the sensor. For example, when the sensor was tilted, the module could still show “no tilt” if the ball moved to a specific side. Also, when the sensor was placed on a flat surface, it could still show “tilt” depending on where the ball settled inside the cylinder.
+
+From this perspective, the sensor lacks accuracy for precise tilt sensing, and the mechanical ball-based method is not efficient for stable measurements. A more accurate sensor such as a digital compass or another motion/angle sensor would be a better choice.
+
+Challenges:
+
+The main challenge was understanding how the module decides tilt when the sensor is completely straight. The behavior showed that the output is strongly affected by the internal moving ball, which can give unexpected results even on a flat board.

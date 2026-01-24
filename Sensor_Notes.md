@@ -121,3 +121,30 @@ From this perspective, the sensor lacks accuracy for precise tilt sensing, and t
 Challenges:
 
 The main challenge was understanding how the module decides tilt when the sensor is completely straight. The behavior showed that the output is strongly affected by the internal moving ball, which can give unexpected results even on a flat board.
+
+---
+
+
+# Sensor 6: KY-019 (5V Relay Module)
+
+
+## Small description
+The KY-019 is a 5V relay module. It allows the Arduino to control an external device like a switch, by turning the relay ON and OFF using a digital output pin.
+
+
+## How to connect it
+The pins on the sensor are: **S , + , -**
+
+
+Connect it like this:
+- S → Arduino D7
+- + → Arduino 5V
+- - → Arduino GND
+ 
+Observation:
+
+During testing, the relay was working correctly and it clicked ON and OFF repeatedly. It was also observed that unlike the obstacle detector, the relay does not work automatically on any pin. It only works on the pin that is selected in the code. In this experiment, the relay worked on pin D7 because the code was written to control pin 7.
+
+Challenges:
+
+No challenges were faced during the connection or testing of the KY-019 relay module.

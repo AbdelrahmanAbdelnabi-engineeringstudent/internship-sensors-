@@ -26,7 +26,7 @@ and what i saw really challenging here is perfecting the angle of the potentiome
 
 ---
 
-# Sensor 2: KY-028 Temperature Sensor
+# Sensor 2: KY-028 (Temperature Sensor)
 
 ## Small description
 The KY-028 is a temperature sensing module based on a thermistor. It provides both an analog temperature signal and a digital threshold output.
@@ -48,7 +48,7 @@ The main challenge was understanding why the numbers go down when it gets hotter
 
 ---
 
-# Sensor 3: KY-001 Temperature Sensor (DS18B20)
+# Sensor 3: KY-001 (Temperature Sensor (DS18B20))
 
 ## Small description
 The KY-001 is a digital temperature sensor. It measures temperature and gives the Arduino the temperature as a real degree value (°C). It is very accurate because it sends digital data, not analog numbers.
@@ -69,7 +69,7 @@ No challenges were faced during the connection or testing of the KY-001 sensor. 
 
 ---
 
-# Sensor 4: KY-035 Hall Effect Sensor
+# Sensor 4: KY-035 (Bihor Magnet Sensor)
 
 
 ## Small description

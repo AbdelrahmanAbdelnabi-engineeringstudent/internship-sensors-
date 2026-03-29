@@ -68,3 +68,10 @@
 - Observed that the buzzer produces sound when receiving a signal
 - Noted that it is mainly useful when combined with another sensor for warning systems
 - No challenges faced
+
+— KY-017 (Mercury Tilt Switch Module)
+- Connected KY-017 sensor (S → D2, + → 5V, - → GND)
+- Uploaded the code and tested tilt detection
+- Observed that the sensor output depends on the internal moving element
+- Noted that it may show no tilt even when tilted depending on position
+- Concluded that the sensor is not very accurate

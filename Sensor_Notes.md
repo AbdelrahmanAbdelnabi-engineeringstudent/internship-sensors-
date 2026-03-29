@@ -174,3 +174,26 @@ It was also observed that when the distance becomes too far or when the sensor c
 Challenges:
 
 No major challenges were faced during testing. The sensor worked reliably and produced stable results.
+
+# Sensor 8: KY-012 Active Buzzer Module
+
+## Small description
+The KY-012 is an active buzzer module. It produces a sound when it receives a digital signal from the Arduino. It is mainly used for alerts or warning systems.
+
+## How to connect it
+The pins on the sensor are: **S , + , -**
+
+Connect it like this:
+- S → Arduino D8  
+- + → Arduino 5V  
+- - → Arduino GND
+ 
+Observation
+
+During testing, it was observed that the KY-012 buzzer module works mainly as a warning or alert device. On its own, it only produces a sound when powered, but it does not provide meaningful functionality without another sensor.
+
+It is more effective when connected to another sensor, such as an obstacle detector, where the sensor sends a signal to the buzzer to trigger a warning in the system.
+
+Challenges
+
+No challenges were faced during the connection or testing of the buzzer module.

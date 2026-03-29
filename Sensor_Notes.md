@@ -175,6 +175,8 @@ Challenges:
 
 No major challenges were faced during testing. The sensor worked reliably and produced stable results.
 
+---
+
 # Sensor 8: KY-012 Active Buzzer Module
 
 ## Small description
@@ -197,3 +199,33 @@ It is more effective when connected to another sensor, such as an obstacle detec
 Challenges
 
 No challenges were faced during the connection or testing of the buzzer module.
+
+---
+
+# Sensor 9: KY-036 Metal Touch Sensor
+
+## Small description
+The KY-036 is a metal touch sensor module. It detects when a metal surface is touched and sends a signal to the Arduino.
+
+## How to connect it
+The pins on the sensor are: **G , + , DO , AO**
+
+Connect it like this:
+- G → Arduino GND  
+- + → Arduino 5V  
+- DO → Arduino D2  
+- AO → not connected
+
+Observation
+
+During testing, it was observed that the sensor responds immediately when the metal part is touched. The moment contact is made, the sensor outputs a signal indicating that touch has been detected.
+
+Challenges
+
+No challenges were faced during testing, and the sensor worked as expected.
+
+---
+
+
+
+

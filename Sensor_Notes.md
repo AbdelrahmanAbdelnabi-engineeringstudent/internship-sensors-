@@ -226,6 +226,27 @@ No challenges were faced during testing, and the sensor worked as expected.
 
 ---
 
+# Sensor 10: KY-017 Mercury Tilt Switch Module
 
+## Small description
+The KY-017 is a tilt sensor module that detects the orientation of the sensor and provides a digital ON/OFF signal depending on its position.
+
+## How to connect it
+The pins on the sensor are: **S , + , -**
+
+Connect it like this:
+- S → Arduino D2  
+- + → Arduino 5V  
+- - → Arduino GND
+ 
+Observation
+
+During testing, it was observed that the sensor is not very efficient for accurate tilt detection. The module has a cylindrical structure with a small internal element that moves inside it.
+
+Because of this, the output depends on the position of this internal element rather than the actual tilt angle. For example, if the internal part moves to the back side, the sensor may show “no tilt” even when the sensor is tilted.
+
+Challenges
+
+The main challenge was understanding how the sensor determines tilt, since the internal moving element can give incorrect results depending on its position.
 
 

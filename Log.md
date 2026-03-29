@@ -54,7 +54,14 @@
 - Tested maximum distance around 190 cm and it still detected precisely
 - Noted that when no object is detected, the sensor shows 1190 cm due to timeout/no echo
 
-NEW SENSORS:
+NEW SENSORS:#Day 1 (3.30.2026)
+— KY-012 (Active Buzzer Module)
+- Connected KY-012 buzzer module (S → D8, + → 5V, - → GND)
+- Uploaded the code and tested sound output
+- Observed that the buzzer produces sound when receiving a signal
+- Noted that it is mainly useful when combined with another sensor for warning systems
+- No challenges faced
+
 — KY-012 (Active Buzzer Module)
 - Connected KY-012 buzzer module (S → D8, + → 5V, - → GND)
 - Uploaded the code and tested sound output

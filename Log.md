@@ -6,16 +6,16 @@
 - Learned how to use Serial Monitor
 
 ## Day 2 (01.22.2026):
-- Tested KY-032 sensor
+— Tested KY-032 sensor
 - Connected it to Arduino and checked the output
 - Adjusted the potentiometers and observed different behavior
 
 ## Day 3 (01.23.2026):
-- Tested KY-028 (temperature sensor)
+— Tested KY-028 (temperature sensor)
 - Observed lower temperature gives high arduino values and higher temperature gives low arduino values.
 - Wrote sensor notes and documentation
   
-- Tested KY-001 (Temperature Sensor)
+— Tested KY-001 (Temperature Sensor)
 - Connected KY-001 to Arduino (VCC, GND, SIG)
 - Installed required libraries (OneWire, DallasTemperature)
 - Uploaded the KY-001 code and tested temperature readings in °C
@@ -31,7 +31,7 @@
 - Farther magnet → lower values, closer magnet → higher values
 - Readings were steady between 932–938 because the magnet was weak
   
-- Tested KY-027 (Magic Light Cup Module)
+— Tested KY-027 (Magic Light Cup Module)
 - Connected KY-027 to Arduino using the pins (G, +, S, L)
 - Wiring used: G → GND, + → 5V, S → D2, L not connected
 - Uploaded the code and tested the sensor output using Serial Monitor
@@ -39,7 +39,7 @@
 - Noted that the sensor can show tilt even on a flat surface, and show no tilt even when tilted
 - Concluded that the sensor is not accurate for reliable tilt detection
 
-- Tested KY-019 (5V Relay Module)
+— Tested KY-019 (5V Relay Module)
 - Connected KY-019 relay module using pins (S, +, -)
 - Wiring used: S → D7, + → 5V, - → GND
 - Uploaded the relay code and tested switching
@@ -47,7 +47,7 @@
 - Noted that the relay only works on the pin written in the code (D7 in this experiment)
 - No challenges faced
 
-- Tested SEN-US01 (Ultrasonic Distance Sensor)
+— Tested SEN-US01 (Ultrasonic Distance Sensor)
 - Connected SEN-US01 to Arduino (VCC → 5V, GND → GND, TRIG → D9, ECHO → D10)
 - Uploaded the code and tested distance measurement using Serial Monitor
 - Observed very high accuracy and good performance for the sensor size
@@ -83,8 +83,15 @@
 - Tested detection through glass and it worked correctly
 - No challenges faced
 
-- KY-009 (RGB LED Module)
+— KY-009 (RGB LED Module)
 - Connected KY-009 RGB LED (R → D9, G → D10, B → D11, - → GND)
 - Uploaded the code and tested color output
 - Observed correct switching between colors (red, green, blue)
+- No challenges faced
+
+— KY-036 (Metal Touch Sensor)
+- Connected KY-036 sensor (G → GND, + → 5V, DO → D2)
+- Uploaded the code and tested touch detection
+- Observed immediate response when touching the metal part
+- Sensor worked as expected with no delays
 - No challenges faced

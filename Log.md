@@ -82,3 +82,9 @@
 - Observed that the sensor detects magnet through the front tube
 - Tested detection through glass and it worked correctly
 - No challenges faced
+
+- KY-009 (RGB LED Module)
+- Connected KY-009 RGB LED (R → D9, G → D10, B → D11, - → GND)
+- Uploaded the code and tested color output
+- Observed correct switching between colors (red, green, blue)
+- No challenges faced

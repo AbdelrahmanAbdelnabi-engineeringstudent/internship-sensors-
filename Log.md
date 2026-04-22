@@ -68,3 +68,17 @@
 - Observed that the sensor output depends on the internal moving element
 - Noted that it may show no tilt even when tilted depending on position
 - Concluded that the sensor is not very accurate
+
+## Day 22.04.2026 — KY-004 (Push Button Module)
+- Connected KY-004 button module (S → D2, + → 5V, - → GND)
+- Uploaded the code and tested button input
+- Observed that the logic was inverted (pressed when not pressed)
+- Fixed the issue by changing HIGH to LOW in the code
+- Verified correct behavior after modification
+
+— KY-025 (Reed Switch Module)
+- Connected KY-025 sensor (G → GND, + → 5V, DO → D2)
+- Uploaded the code and tested magnetic detection
+- Observed that the sensor detects magnet through the front tube
+- Tested detection through glass and it worked correctly
+- No challenges faced

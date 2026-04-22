@@ -249,4 +249,29 @@ Challenges
 
 The main challenge was understanding how the sensor determines tilt, since the internal moving element can give incorrect results depending on its position.
 
+---
+
+# Sensor 11: KY-004 Push Button Module
+
+## Small description
+The KY-004 is a push button module. It detects when the button is pressed and sends a digital ON/OFF signal to the Arduino.
+
+## How to connect it
+The pins on the sensor are: **S , + , -**
+
+Connect it like this:
+- S → Arduino D2  
+- + → Arduino 5V  
+- - → Arduino GND
+ 
+Observation
+
+During testing, it was observed that the button works correctly, but the default logic was inverted. When the button was not pressed, the sensor output indicated that it was pressed.
+
+To fix this, the condition in the code was changed from HIGH to LOW, which corrected the behavior and provided accurate results.
+
+Challenges
+
+The main challenge was understanding why the output logic was reversed, but it was resolved by adjusting the condition in the code.
+
 

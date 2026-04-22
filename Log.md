@@ -62,13 +62,6 @@
 - Noted that it is mainly useful when combined with another sensor for warning systems
 - No challenges faced
 
-— KY-012 (Active Buzzer Module)
-- Connected KY-012 buzzer module (S → D8, + → 5V, - → GND)
-- Uploaded the code and tested sound output
-- Observed that the buzzer produces sound when receiving a signal
-- Noted that it is mainly useful when combined with another sensor for warning systems
-- No challenges faced
-
 — KY-017 (Mercury Tilt Switch Module)
 - Connected KY-017 sensor (S → D2, + → 5V, - → GND)
 - Uploaded the code and tested tilt detection

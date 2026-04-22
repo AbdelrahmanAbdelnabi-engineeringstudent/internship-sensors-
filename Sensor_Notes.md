@@ -91,6 +91,14 @@ Challenges:
 
 No major challenges were faced during the experiment. The sensor output was easy to observe and remained steady due to the weak magnet strength.
 
+
+##NEW Observation
+During testing, it was observed that when the sensor was placed between two magnets, the magnetic field became stronger. This resulted in higher voltage readings and higher calculated Tesla values.
+
+When the sensor was moved away from the magnets, the magnetic field became weaker, and both the voltage and Tesla values decreased.
+
+It was also observed that in some cases the Tesla value became slightly negative (around -0.01). This occurs when the measured voltage drops slightly below the reference value (approximately 2.5V), indicating a very weak or opposite-direction magnetic field.
+
 ---
 
 # Sensor 5: KY-027 Magic Light Cup Module

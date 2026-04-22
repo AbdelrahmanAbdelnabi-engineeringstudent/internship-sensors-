@@ -274,4 +274,54 @@ Challenges
 
 The main challenge was understanding why the output logic was reversed, but it was resolved by adjusting the condition in the code.
 
+---
+
+# Sensor 12: KY-025 Reed Switch Module
+
+## Small description
+The KY-025 is a magnetic reed switch sensor. It detects the presence of a magnet and provides a digital signal when a magnetic field is detected.
+
+## How to connect it
+The pins on the sensor are: **G , + , DO , AO**
+
+Connect it like this:
+- G → Arduino GND  
+- + → Arduino 5V  
+- DO → Arduino D2  
+- AO → not connected  
+
+Observation
+
+During testing, it was observed that the sensor detects magnetic fields through a small tube located at the front of the module. The sensor was able to detect a magnet even when it was placed behind objects such as glass.
+
+This shows that the sensor responds directly to magnetic fields, which can pass through non-metallic materials.
+
+Challenges
+
+No challenges were faced during testing, and the sensor worked reliably.
+
+---
+
+# Sensor 13: KY-009 RGB LED Module
+
+## Small description
+The KY-009 is an RGB LED module. It can produce different colors by controlling the red, green, and blue LEDs using the Arduino.
+
+## How to connect it
+The pins on the sensor are: **R , G , B , -**
+
+Connect it like this:
+- R → Arduino D9  
+- G → Arduino D10  
+- B → Arduino D11  
+- - → Arduino GND  
+
+Observation
+
+During testing, it was observed that the RGB LED module worked normally and successfully changed between different colors as expected.
+
+Challenges
+
+No challenges were faced during testing, and the module functioned correctly.
+
 
